@@ -1,0 +1,620 @@
+/*Typography*/
+h1 {
+    font-size: 28px;
+    text-align: left;
+    color: var(--tertiary);
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+}
+h3 {
+    color: var(--primary);
+    margin-top: 32px;
+    margin-bottom: 0;
+}
+
+h4 {
+    margin: 0;
+}
+
+h5 {
+    margin: 0;
+}
+
+main p {
+    margin: 0;
+    opacity: 50%;
+}
+
+/*HEADER - NAV*/
+.outer-container-header {
+    background-color: var(--tertiary);
+    height: 90px;
+}
+
+/*MAIN*/
+.section-container {
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+}
+
+/*PRODUCT Section*/
+.product-section {
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+    margin-top: 24px;
+    width: 327px;
+}
+
+.product-card-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}
+
+.text-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    margin: 0;
+}
+
+.product-img-container {
+    width: 327px;
+    height: 327px;
+    background-color: var(--color-card);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: .5rem;
+}
+
+.product-img {
+    background-image: url("../assets/product-xx99-mark-one-headphones/mobile/img.png");
+    background-repeat: no-repeat;
+    width: 181px;
+    height: 215px;
+    background-size: contain;
+    margin-top: 56px;
+    z-index: 1;
+    display: flex;
+    position: absolute;
+}
+
+.oval-img {
+    background-image: url("../assets/shared/oval.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 136px;
+    height: 60px;
+    position: relative;
+    top: 246px;
+    opacity: 60%;
+}
+
+.btns-container {
+    display: flex;
+    gap: 1rem;
+}
+
+/*Features*/
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.flex-container-text-list {
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+}
+
+/*In The Box List */
+.box-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.product-section ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.product-section ul li {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.product-section ul span {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+    color: var(--primary);
+}
+
+/*Picture Section*/
+.picture-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.img-picture-1 {
+    background-image: url("../assets/product-xx99-mark-two-headphones/mobile/image-gallery-1.jpg");
+    background-size: contain;
+    height: 174px;
+    width: 327px;
+    border-radius: .5rem;
+}
+
+.img-picture-2 {
+    background-image: url("../assets/product-xx99-mark-two-headphones/mobile/image-gallery-2.jpg");
+    background-size: contain;
+    height: 174px;
+    width: 327px;
+    border-radius: .5rem;
+}
+
+.img-picture-3 {
+    background-image: url("../assets/product-xx99-mark-two-headphones/mobile/image-gallery-3.jpg");
+    background-size: contain;
+    height: 368px;
+    width: 327px;
+    border-radius: .5rem;
+}
+
+/*Recommended Section*/
+.rec-content h4 {
+    text-align: center;
+    letter-spacing: 0.107rem;
+    line-height: normal;
+}
+
+.recommend-section {
+    height: 983px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rec-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    margin-top: 40px;
+}
+
+.rec {
+    width: 327px;
+    height: 265px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.rec-img-container {
+    background-color: var(--color-card);
+    height: 120px;
+    width: 327px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rec-img-container .img-xx99 {
+    background-image: url("../assets/product-xx99-mark-two-headphones/mobile/img.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 95px;
+    width: 73px;
+}
+
+.rec-img-container .img-xx59 {
+    background-image: url("../assets/product-xx59-headphones/mobile/img.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 83px;
+    width: 4.974rem;
+}
+
+.rec-img-container .img-zx9 {
+    background-image: url("../assets/home/mobile/speakers_small.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 86px;
+    width: 4.473rem;
+}
+
+.rec-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+/*PAGE CATEGORY Nav Cards*/
+.page-card-container {
+    margin: 0;
+}
+
+/*MEDIA QUERY SCREEN SIZES*/
+/*Tablet (M)*/
+@media (min-width: 768px) {
+    /*Typography*/
+    h1 {
+        font-size: 28px;
+        text-align: left;
+        color: var(--tertiary);
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 17px 0 32px 0;
+    }
+
+    h3 {
+        margin-top: 0;
+    }
+
+    h5 {
+        margin-top: 32px;
+    }
+
+    /*MAIN*/
+    /*ABOUT Section*/
+    .flex-container-about {
+        margin-bottom: 120px;
+    }
+
+    /*PRODUCT Section*/
+    .product-section {
+        gap: 120px;
+        width: 690px;
+    }
+
+    .product-card-container {
+        width: 100%;
+        height: 480px;
+        gap: 69px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .text-content {
+        width: 21.219rem;
+        height: 390px;
+        display: flex;
+        align-items: flex-start;
+        gap: 0;
+    }
+
+    .product-img-container {
+        width: 281px;
+        height: 480px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-img {
+        background-image: url("../assets/product-xx99-mark-one-headphones/mobile/img.png");
+        width: 181px;
+        height: 201px;
+        background-size: contain;
+        margin-top: 133px;
+    }
+
+    .oval-img {
+        background-image: url("../assets/shared/oval.png");
+        width: 136px;
+        height: 60px;
+        top: 308px;
+    }
+
+    .btns-container {
+        margin-top: 31px;
+    }
+
+    /*features*/
+    .flex-container-text-list {
+        display: flex;
+        flex-direction: column;
+        gap: 120px;
+    }
+
+    /*In The Box List */
+    .box-list {
+        display: flex;
+        flex-direction: row;
+        gap: 11px;
+    }
+
+    .box-list h4 {
+        width: 339px;
+        height: 36px;
+    }
+
+    /*Picture Section*/
+    .picture-section {
+        height: 368px;
+        width: 690px;
+        display: flex;
+        flex-direction: row;
+        gap: 18px;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .img-picture-1 {
+        background-image: url("../assets/product-xx99-mark-two-headphones/tablet/image-gallery-1.jpg");
+        background-size: cover;
+        width: 277px;
+    }
+
+    .img-picture-2 {
+        background-image: url("../assets/product-xx99-mark-two-headphones/tablet/image-gallery-2.jpg");
+        background-size: cover;
+        width: 277px;
+    }
+
+    .img-picture-3 {
+        background-image: url("../assets/product-xx99-mark-two-headphones/tablet/image-gallery-3.jpg");
+        background-size: cover;
+        height: 368px;
+        width: 368px;
+    }
+
+    /*Recommended Section*/
+    .recommend-section {
+        height: 563px;
+    }
+
+    .rec-cards {
+        display: flex;
+        flex-direction: row;
+        gap: 11px;
+        margin-top: 56px;
+    }
+
+    .rec {
+        gap: 40px;
+        width: 223px;
+        height: 471px;
+    }
+
+    .rec-img-container {
+        height: 318px;
+        width: 223px;
+    }
+
+    .rec-img-container .img-xx99 {
+        background-image: url("../assets/product-xx99-mark-two-headphones/mobile/img.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 193px;
+        width: 9.269rem;
+        margin: auto;
+    }
+
+    .rec-img-container .img-xx59 {
+        background-image: url("../assets/product-xx59-headphones/mobile/img.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 199px;
+        width: 11.926rem;
+        margin: auto;
+    }
+
+    .rec-img-container .img-zx9 {
+        background-image: url("../assets/home/mobile/speakers_small.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 172px;
+        width: 8.945rem;
+        margin: auto;
+    }
+
+    .rec-content {
+        width: 100%;
+        height: 113px;
+        gap: 32px;
+    }
+
+    .rec-content h4 {
+        font-size: 24px;
+        text-align: center;
+        letter-spacing: 0.107rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+    /*PAGE CATEGORY Nav Cards*/
+    .page-card-container {
+        margin: 0;
+    }
+}
+
+/*Desktop (XL) */
+@media (min-width: 1280px) {
+    /*Typography*/
+    h1 {
+        font-size: 40px;
+        line-height: 44px;
+        letter-spacing: 0.089rem;
+        margin: 16px 0 32px 0;
+    }
+
+    .outer-container-header {
+        height: 97px;
+    }
+
+    /*ABOUT Section*/
+    .flex-container-about {
+        margin-bottom: 160px;
+    }
+
+    /*PRODUCT Section*/
+    .product-section {
+        gap: 160px;
+        width: 100%;
+        margin-top: 56px;
+    }
+
+    .product-card-container {
+        width: 100%;
+        height: 560px;
+        gap: 7.781rem;
+    }
+
+    .text-content {
+        width: 27.844rem;
+        height: 407px;
+    }
+
+    .product-img-container {
+        width: 540px;
+        height: 560px;
+    }
+
+    .product-img {
+        background-image: url("../assets/product-xx99-mark-one-headphones/desktop/img.png");
+        width: 21.828rem;
+        height: 386px;
+        background-size: contain;
+        margin-top: 4.094rem;
+    }
+
+    .oval-img {
+        background-image: url("../assets/shared/oval-desktop.png");
+        width: 262px;
+        height: 100px;
+        top: 404px;
+    }
+
+    .btns-container {
+        margin-top: 47px;
+    }
+
+    /*features*/
+    .features {
+        height: 318px;
+        width: 635px;
+    }
+
+    .flex-container-text-list {
+        height: 318px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 125px;
+    }
+
+    /*In The Box List */
+    .box-list {
+        height: 350px;
+        width: 225px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .box-list h4 {
+        font-size: 32px;
+        line-height: 36px;
+        letter-spacing: 0.071rem;
+    }
+
+    /*Picture Section*/
+    .picture-section {
+        height: 592px;
+        width: 1110px;
+        gap: 30px;
+    }
+
+    .flex-container {
+        gap: 32px;
+    }
+
+    .img-picture-1 {
+        background-image: url("../assets/product-xx99-mark-two-headphones/desktop/image-gallery-1.jpg");
+        background-size: cover;
+        width: 445px;
+        height: 280px;
+    }
+
+    .img-picture-2 {
+        background-image: url("../assets/product-xx99-mark-two-headphones/desktop/image-gallery-2.jpg");
+        background-size: cover;
+        width: 445px;
+        height: 280px;
+    }
+
+    .img-picture-3 {
+        background-image: url("../assets/product-xx99-mark-two-headphones/desktop/image-gallery-3.jpg");
+        background-size: cover;
+        height: 592px;
+        width: 635px;
+    }
+
+    /*Recommended Section*/
+    .recommend-section {
+        height: 571px;
+    }
+
+    .rec-cards {
+        gap: 30px;
+        margin-top: 56px;
+    }
+
+    .rec {
+        gap: 40px;
+        width: 350px;
+    }
+
+    .img-zx9:hover,
+    .img-xx59:hover,
+    .img-xx99:hover {
+        cursor: pointer;
+    }
+
+    .rec-img-container {
+        width: 350px;
+    }
+
+    .rec-img-container .img-xx99 {
+        background-image: url("../assets/product-xx99-mark-two-headphones/desktop/img.png");
+    }
+
+    .rec-img-container .img-xx59 {
+        background-image: url("../assets/product-xx59-headphones/desktop/img.png");
+    }
+
+    .rec-img-container .img-zx9 {
+        background-image: url("../assets/home/desktop/speakers_large.png");
+    }
+
+    .rec-content {
+        width: 100%;
+        height: 113px;
+        gap: 32px;
+    }
+
+    /*PAGE CATEGORY Nav Cards*/
+    .page-card-container {
+        margin: 0;
+    }
+}

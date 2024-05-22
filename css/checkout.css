@@ -1,0 +1,384 @@
+/*Typography*/
+h1 {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: left;
+    width: 160px;
+    height: 38px;
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-bottom: 32px;
+}
+
+h6 {
+    height: 25px;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+/*HEADER - NAV*/
+.outer-container-header {
+    background-color: var(--tertiary);
+    height: 90px;
+}
+
+/*MAIN*/
+.inner-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+/*CHECKOUT*/
+.checkout-container {
+    width: 100%;
+    height: 1378px;
+    border-radius: .5rem;
+    background-color: var(--secondary);
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    display: inline-block;
+    margin: 0 auto 0 auto;
+    text-align: left;
+    width: 280px;
+}
+
+.form-container {
+    display: block;
+    text-align: center;
+}
+
+.details-container {
+   margin-bottom: 32px;
+}
+
+.box {
+    height: 81px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    margin-bottom: 24px;
+}
+
+::placeholder {
+    color: #00000060;
+    font-size: 14px;
+}
+
+input {
+    font-weight: 700;
+    letter-spacing: 0.016rem;
+    width: 100%;
+    height: 56px;
+    border-radius: .5rem;
+    border: 1px solid #CFCFCF;
+    padding: 18px 0 19px 24px;
+}
+
+input:is(:hover, :focus, :active) {
+    cursor: pointer;
+    outline-color: var(--primary);
+}
+
+label {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.013rem;
+}
+
+.radio-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.flex-box-radio {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.radio {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    border: 1px solid #CFCFCF;
+    height: 56px;
+    width: 280px;
+    border-radius: .5rem;
+    margin: 0;
+}
+
+.radio:is(:hover, :active) {
+    cursor: pointer;
+    border-color: var(--primary);
+}
+
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    margin: 18px 0 16px 18px;
+    accent-color: var(--primary);
+}
+
+#radio-label, #radio-label2 {
+    margin-bottom: 1px;
+}
+
+.cash-on-delivery {
+    display: none;
+}
+
+/*SUMMARY CART*/
+.cart-summary-container {
+    height: 612px;
+    width: 100%;
+    background-color: var(--secondary);
+    border-radius: 8px;
+    padding: 32px 24px;
+    margin-bottom: 97px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cart-header h5 {
+    margin-top: 0;
+   margin-bottom: 31px;
+}
+
+.items-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
+.cart-element {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.cart-img {
+    width: 64px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.items-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.cart-summary-container p {
+    margin: 0;
+}
+
+.cart-summary-container .total {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.total-container {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.cart-summary-container .grand-total {
+    margin-top: 24px;
+    margin-bottom: 2rem;
+}
+
+.cart-checkout {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/*MEDIA QUERY SCREEN SIZES*/
+/*Tablet (M)*/
+@media (min-width: 768px) {
+    .outer-container-main {
+        padding-bottom: 400px;
+    }
+
+    /*Typography*/
+    h1 {
+        font-size: 32px;
+        line-height: 36px;
+        letter-spacing: 0.071rem;
+        width: 350px;
+        height: 36px;
+        margin-top: 30px;
+        margin-left: 28px;
+        margin-bottom: 41px;
+    }
+
+    /*CHECKOUT*/
+    .checkout-container {
+        width: 100%;
+        height: 1133px;
+    }
+
+    form {
+        height: 977px;
+        width: 39.656rem;
+    }
+
+    .billing-container {
+        margin-bottom: 53px;
+    }
+
+    .shipping-container {
+        margin-bottom: 61px;
+    }
+
+    .payment-container {
+        margin-bottom: 24px;
+    }
+
+    .flex-box-billing {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .flex-box-shipping {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .flex-box-radio {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .flex-box-e-money {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0;
+    }
+
+    .flex-box-e-money .box {
+        margin: 0;
+    }
+
+    .radio {
+        width: 309px;
+    }
+
+    .adr-box input {
+        width: 100%;
+    }
+
+    input {
+        width: 309px;
+        height: 56px;
+    }
+
+    /*SUMMARY CART*/
+    .cart-summary-container {
+        padding: 32px 33px;
+        margin-bottom: 116px;
+    }
+}
+
+/*Desktop (XL) */
+@media (min-width: 1280px) {
+    .outer-container-header {
+        height: 97px;
+    }
+
+    .outer-container-main {
+        padding-bottom: 365px;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    /*Typography*/
+    h1 {
+        margin: 0 0 41px 0;
+    }
+
+    /*CHECKOUT*/
+    .checkout-container {
+        margin-top: 38px;
+        width: 730px;
+        height: 1150px;
+        margin-bottom: 141px;
+        padding: 54px 48px 48px 48px;
+    }
+
+    form {
+        height: 980px;
+        width: 634px;
+    }
+
+    .flex-box-e-money {
+        margin: 0;
+    }
+
+    .box {
+        margin: 0;
+    }
+
+    .fname-box,
+    .email-box,
+    .adr-box,
+    .zip-box,
+    .city-box {
+        margin-bottom: 24px;
+    }
+
+
+    /*cash on delivery hidden radio check*/
+    /*.hidden {*/
+    /*    display: none;*/
+    /*}*/
+
+    /*.cash-on-delivery {*/
+    /*    width: 100%;*/
+    /*    height: 75px;*/
+    /*    display: flex;*/
+    /*    justify-content: space-between;*/
+    /*    align-items: center;*/
+    /*}*/
+
+    /*.cash-on-delivery p {*/
+    /*    width: 554px;*/
+    /*    text-align: left;*/
+    /*    opacity: 50%;*/
+    /*}*/
+
+    /*SUMMARY CART*/
+    .cart-summary-container {
+        width: 350px;
+        margin-top: 38px;
+    }
+}
