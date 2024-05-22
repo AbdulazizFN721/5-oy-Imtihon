@@ -1,4 +1,4 @@
-/*DESIGN SYSTEM*/
+
 :root {
     --primary: #D87D4A;
     --primary-active: #fbaf85;
@@ -9,7 +9,7 @@
     --color-footer: #101010;
 }
 
-/*Typography*/
+
 h2 {
     color: var(--tertiary);
     font-size: 28px;
@@ -60,7 +60,7 @@ P {
     line-height: 25px;
 }
 
-/*Cart fonts*/
+
 .cart-element p {
     font-weight: 700;
     color: var(--tertiary);
@@ -112,7 +112,7 @@ P {
     color: var(--primary);
 }
 
-/*Buttons*/
+
 .btn {
     font-size: 13px;
     font-weight: 700;
@@ -234,7 +234,7 @@ P {
     color: var(--primary);
 }
 
-/*BODY*/
+
 * {
     box-sizing: border-box;
 }
@@ -246,7 +246,7 @@ body {
     min-height: 100vh;
 }
 
-/*CART MODAL*/
+
 #modal-container {
     position: fixed;
     visibility: hidden;
@@ -350,7 +350,7 @@ body {
     margin: 0;
 }
 
-/*NAV Breadcrumb*/
+
 .breadcrumb {
     color: var(--tertiary);
     opacity: 50%;
@@ -369,7 +369,7 @@ body {
     margin: 0 auto;
 }
 
-/*HEADER - NAV*/
+
 header {
     display: flex;
     justify-content: space-between;
@@ -381,14 +381,14 @@ header {
     display: none;
 }
 
-/*hamburger menu*/
+
 #toggleBtn {
     background-color: transparent;
     border: none;
     cursor: pointer;
 }
 
-/*Header/Footer - Navigation Links*/
+
 header a, footer a {
     color: var(--secondary);
     font-size: 13px;
@@ -413,13 +413,13 @@ ul {
     margin: 0;
 }
 
-/*MAIN*/
+
 main {
     display: flex;
     flex-direction: column;
 }
 
-/*PAGE CATEGORY Nav Cards*/
+
 .page-card-container {
     display: flex;
     flex-direction: column;
@@ -504,7 +504,7 @@ main {
     margin-bottom: 17px;
 }
 
-/*ABOUT Section*/
+
 .flex-container-about {
     width: 100%;
     height: 698px;
@@ -541,7 +541,7 @@ main {
     margin: 0;
 }
 
-/*FOOTER*/
+
 .outer-container-footer {
     background-color: var(--color-footer);
     height: 654px;
@@ -551,7 +551,7 @@ main {
     position: relative;
 }
 
-/*section top rectangle*/
+
 .top-rectangle {
     height: 4px;
     width: 101px;
@@ -576,7 +576,7 @@ footer {
     margin-top: 52px;
 }
 
-/*footer navigation*/
+
 .nav-footer {
     margin: 48px auto;
 }
@@ -586,7 +586,7 @@ footer {
     gap: 16px;
 }
 
-/*footer text*/
+
 footer p {
     color: var(--secondary);
     opacity: 75%;
@@ -603,7 +603,7 @@ footer p {
     font-weight: 700;
 }
 
-/*footer social*/
+
 .socials-container {
     display: flex;
     justify-content: center;
@@ -639,34 +639,32 @@ footer p {
     fill: var(--primary);
 }
 
-/*MEDIA QUERY SCREEN SIZES*/
-/*Tablet (M)*/
+
 @media (min-width: 768px) {
-    /*Typography*/
+
     h4 {
         font-size: 32px;
         letter-spacing: 0.071rem;
     }
 
-    /*MODAL CARD*/
+
     .modal-cart {
         top: 50%;
         left: 63%;
         transform: translate(-50%, -50%);
     }
 
-    /*BODY*/
+   
     .inner-container {
         max-width: 689px;
     }
 
-    /*NAV Breadcrumb*/
+ 
     .breadcrumb {
         margin-top: 3rem;
     }
 
-    /*MAIN*/
-    /*PAGE CATEGORY Nav Cards*/
+  
     .page-card-container {
         flex-direction: row;
         margin-top: 6rem;
@@ -710,12 +708,12 @@ footer p {
         width: 573px;
     }
 
-    /*FOOTER*/
+   
     .outer-container-footer {
         height: 400px;
     }
 
-    /*section top rectangle*/
+ 
     .top-rectangle{
         left: 50px;
     }
@@ -733,7 +731,7 @@ footer p {
         margin: 0;
     }
 
-    /*footer navigation*/
+   
     .nav-footer {
         margin: 32px auto;
     }
@@ -744,7 +742,7 @@ footer p {
         margin-bottom: 2rem;
     }
 
-    /*footer text*/
+   
     .footer-text-about {
         width: 689px;
         text-align: left;
@@ -755,8 +753,7 @@ footer p {
         margin: 0;
     }
 
-    /*Footer bottom flex container
-      for tablet/desktop */
+    
     .flex-container-tablet {
         display: flex;
         height: 25px;
@@ -768,26 +765,26 @@ footer p {
     }
 }
 
-/*Desktop (XL) */
+
 @media (min-width: 1280px) {
-    /*MODAL CARD*/
+
     .modal-cart {
         top: 50%;
         left: 74%;
         transform: translate(-50%, -50%);
     }
 
-    /*BODY*/
+    
     .inner-container {
         max-width: 69.396rem;
     }
 
-    /*Breadcrumb*/
+    
     .breadcrumb {
         margin-top: 79px;
     }
 
-    /*HEADER / NAV*/
+    
     header {
         justify-content: flex-start;
         gap: 42px;
@@ -811,8 +808,7 @@ footer p {
         display: none;
     }
 
-    /*MAIN*/
-    /*PAGE CATEGORY Nav Cards*/
+   
     .page-card-container {
         gap: 30px;
         height: 284px;
@@ -892,7 +888,7 @@ footer p {
         margin-bottom: 15px;
     }
 
-    /*ABOUT Section*/
+    
     .flex-container-about {
         height: 588px;
         display: flex;
@@ -926,7 +922,7 @@ footer p {
         width: 445px;
     }
 
-    /*FOOTER*/
+  
     .outer-container-footer {
         height: 365px;
     }
@@ -943,7 +939,7 @@ footer p {
         margin: 0;
     }
 
-    /*footer text*/
+   
     .footer-text-about {
         width: 540px;
         text-align: left;
