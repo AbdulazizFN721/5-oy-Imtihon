@@ -355,28 +355,7 @@ input[type="radio"] {
     .city-box {
         margin-bottom: 24px;
     }
-
-
-    /*cash on delivery hidden radio check*/
-    /*.hidden {*/
-    /*    display: none;*/
-    /*}*/
-
-    /*.cash-on-delivery {*/
-    /*    width: 100%;*/
-    /*    height: 75px;*/
-    /*    display: flex;*/
-    /*    justify-content: space-between;*/
-    /*    align-items: center;*/
-    /*}*/
-
-    /*.cash-on-delivery p {*/
-    /*    width: 554px;*/
-    /*    text-align: left;*/
-    /*    opacity: 50%;*/
-    /*}*/
-
-    /*SUMMARY CART*/
+    
     .cart-summary-container {
         width: 350px;
         margin-top: 38px;
